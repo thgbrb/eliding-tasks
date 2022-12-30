@@ -6,7 +6,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\IOBoundContext\IOBoundContext.csproj" />
+        <ProjectReference Include="..\IOBoundContext\IOBoundContext.csproj"/>
     </ItemGroup>
 
 </Project>
