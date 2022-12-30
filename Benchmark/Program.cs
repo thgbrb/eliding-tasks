@@ -17,10 +17,10 @@ namespace Benchmark
     {
         static void Main(string[] args)
         {
-            // RunBenchmark();
-            // ElidingTaskWithException();
-            // ElidingTaskWithoutException();
-            // NonElidingTaskWithException();
+            RunBenchmark();
+            ElidingTaskWithException();
+            ElidingTaskWithoutException();
+            NonElidingTaskWithException();
             NonElidingTaskWithoutException();
         }
 
