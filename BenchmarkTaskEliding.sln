@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{D325BF92-B96E-4875-8561-8B8ABCEFA167}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simulation", "Simulation", "{C5D1DBFF-5122-4BED-B954-E0B6E506781F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Simulation\Application\Application.csproj", "{6E5FA36D-D7B5-4FF4-8001-4F847E386698}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IOBoundContext", "Simulation\IOBoundContext\IOBoundContext.csproj", "{92044380-DF72-44BE-9240-E08D1703F749}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D325BF92-B96E-4875-8561-8B8ABCEFA167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D325BF92-B96E-4875-8561-8B8ABCEFA167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D325BF92-B96E-4875-8561-8B8ABCEFA167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D325BF92-B96E-4875-8561-8B8ABCEFA167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5FA36D-D7B5-4FF4-8001-4F847E386698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5FA36D-D7B5-4FF4-8001-4F847E386698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5FA36D-D7B5-4FF4-8001-4F847E386698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5FA36D-D7B5-4FF4-8001-4F847E386698}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92044380-DF72-44BE-9240-E08D1703F749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92044380-DF72-44BE-9240-E08D1703F749}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92044380-DF72-44BE-9240-E08D1703F749}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92044380-DF72-44BE-9240-E08D1703F749}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6E5FA36D-D7B5-4FF4-8001-4F847E386698} = {C5D1DBFF-5122-4BED-B954-E0B6E506781F}
+		{92044380-DF72-44BE-9240-E08D1703F749} = {C5D1DBFF-5122-4BED-B954-E0B6E506781F}
+	EndGlobalSection
+EndGlobal
